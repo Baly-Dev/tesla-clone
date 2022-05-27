@@ -1,7 +1,20 @@
 {
   "name": "",
   "isOrdered": true,
-  "folders": {},
+  "folders": {
+    "media": {
+      "name": "media",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "static": {
+      "name": "static",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    }
+  },
   "files": {
     "README": 0
   }
