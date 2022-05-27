@@ -1,0 +1,160 @@
+/* CSS reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body{
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../media/background-image.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/* global */
+:root{
+    --p-text-color: #262626;
+}
+
+/* positioning */
+
+.center{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.flex-row{
+    display: flex;
+    flex-flow: wrap row;
+}
+
+.flex-col{
+    display: flex;
+    flex-flow: wrap column;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.gap3{
+    gap: 30px;
+}
+
+/* header */
+
+header{
+    height: 70px;
+    align-items: center;
+    background-color: transparent;
+    margin-bottom: 80px;
+}
+
+.navbar{
+    width: 100%;
+}
+
+.nav-menu{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    max-width: 130px;
+    cursor: pointer;
+}
+
+.nav-menu ul{
+    gap: 35px;
+    text-transform: uppercase;
+}
+
+.nav-menu li{
+    list-style: none;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: var(--p-text-color);
+}
+
+.first, .second, .third{
+    align-items: center;
+}
+
+.toggle{
+    font-size: 28px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* section01 */
+
+#section01{
+    margin-bottom: 100px;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.section-wrapper{
+    height: 680px;
+    justify-content: space-between;
+}
+
+.btn{
+    width: 240px;
+    padding: 12px 0px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-fill{
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+.btn-unfill{
+    border: 1px solid transparent;
+    background-color: #262626a2;
+    color: #fff;
+}
+
+/* section 02 */
+
+.expand{
+    color: #fff;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+
+
+/* debug classes */
+
+.debug-primary{
+    border: 2px solid red;
+}
+
+.debug-secondary{
+    border: 2px solid blue;
+}
+
+.debug-tertiary{
+    border: 2px solid green;
+}

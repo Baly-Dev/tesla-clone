@@ -1,0 +1,16 @@
+/* headers */
+
+.nav-menu a:hover{
+    text-decoration: underline;
+}
+
+/* section01*/
+
+.btn-fill:hover{
+    border: 1px solid rgb(244, 244, 244);
+    background-color: rgb(244, 244, 244);
+}
+
+.btn-unfill:hover{
+    background-color: #262626c1;
+}
