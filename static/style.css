@@ -12,6 +12,7 @@ body{
     background-image: url(../media/background-image.png);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* global */
@@ -20,7 +21,6 @@ body{
 }
 
 /* positioning */
-
 .center{
     max-width: 1200px;
     margin: auto;
@@ -49,7 +49,6 @@ body{
 }
 
 /* header */
-
 header{
     height: 70px;
     align-items: center;
@@ -96,7 +95,6 @@ header{
 }
 
 /* section01 */
-
 #section01{
     margin-bottom: 100px;
 }
@@ -136,17 +134,13 @@ h2{
 }
 
 /* section 02 */
-
 .expand{
     color: #fff;
     font-size: 32px;
     cursor: pointer;
 }
 
-
-
-/* debug classes */
-
+/* debug classes 
 .debug-primary{
     border: 2px solid red;
 }
@@ -158,3 +152,4 @@ h2{
 .debug-tertiary{
     border: 2px solid green;
 }
+*/
